@@ -1,4 +1,4 @@
-import 'package:common/value_objects/value_object.dart';
+import 'package:common/domain/value_objects/value_object.dart';
 import 'package:result_dart/result_dart.dart';
 
 class UuidVO extends ValueObject<String> {

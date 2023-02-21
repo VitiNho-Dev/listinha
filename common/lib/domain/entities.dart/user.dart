@@ -1,5 +1,5 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
-import 'package:common/value_objects/text_vo.dart';
+import 'package:common/domain/value_objects/text_vo.dart';
 
 import '../value_objects/email_vo.dart';
 import '../value_objects/url_vo.dart';
