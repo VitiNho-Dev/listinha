@@ -14,5 +14,5 @@ dev_dependencies:
   mocktail: ^0.3.0
   flutterando_analysis: ^0.0.2
 dependencies:
-  dart_result: ^1.0.0
+  result_dart: ^1.0.5
   uno: ^1.1.0
