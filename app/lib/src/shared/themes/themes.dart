@@ -5,10 +5,12 @@ part 'color_schemes.g.dart';
 ThemeData get lightTheme => ThemeData(
       useMaterial3: true,
       colorScheme: _lightColorScheme,
-      primaryColor: _lightColorScheme.onPrimary,
       appBarTheme: AppBarTheme(
-        backgroundColor: _lightColorScheme.primaryContainer,
+        centerTitle: true,
+        backgroundColor: _lightColorScheme.surfaceTint.withOpacity(0.08),
       ),
+      primaryColorLight: _lightColorScheme.inversePrimary,
+      secondaryHeaderColor: _lightColorScheme.onPrimary,
       segmentedButtonTheme: segmentedButtonThemeData,
       floatingActionButtonTheme: FloatingActionButtonThemeData(
         backgroundColor: _lightColorScheme.primary,
@@ -20,8 +22,11 @@ ThemeData get darkTheme => ThemeData(
       useMaterial3: true,
       colorScheme: _darkColorScheme,
       appBarTheme: AppBarTheme(
-        backgroundColor: _darkColorScheme.primaryContainer,
+        centerTitle: true,
+        backgroundColor: _darkColorScheme.surfaceTint.withOpacity(0.08),
       ),
+      primaryColorDark: _darkColorScheme.inversePrimary,
+      secondaryHeaderColor: _darkColorScheme.onPrimary,
       segmentedButtonTheme: segmentedButtonThemeData,
       floatingActionButtonTheme: FloatingActionButtonThemeData(
         backgroundColor: _darkColorScheme.primary,
