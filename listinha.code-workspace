@@ -10,5 +10,7 @@
 			"path": "common"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"dart.flutterSdkPath": "C:\\Users\\victo\\fvm\\versions\\3.7.0"
+	}
 }
