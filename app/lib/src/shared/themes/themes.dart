@@ -9,7 +9,6 @@ ThemeData get lightTheme => ThemeData(
         centerTitle: true,
         backgroundColor: _lightColorScheme.surfaceTint.withOpacity(0.08),
       ),
-      primaryColorLight: _lightColorScheme.inversePrimary,
       secondaryHeaderColor: _lightColorScheme.onPrimary,
       segmentedButtonTheme: segmentedButtonThemeData,
       floatingActionButtonTheme: FloatingActionButtonThemeData(
@@ -25,7 +24,6 @@ ThemeData get darkTheme => ThemeData(
         centerTitle: true,
         backgroundColor: _darkColorScheme.surfaceTint.withOpacity(0.08),
       ),
-      primaryColorDark: _darkColorScheme.inversePrimary,
       secondaryHeaderColor: _darkColorScheme.onPrimary,
       segmentedButtonTheme: segmentedButtonThemeData,
       floatingActionButtonTheme: FloatingActionButtonThemeData(

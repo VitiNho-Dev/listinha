@@ -1,16 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
+
+import '../shared/widgets/custom_app_bar.dart';
 
 class ConfigurationPage extends StatelessWidget {
   const ConfigurationPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('LISTINHA'),
-      ),
+    return const Scaffold(
+      appBar: CustomAppBar(),
     );
   }
 }

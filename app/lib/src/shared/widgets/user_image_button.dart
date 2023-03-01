@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class UserImageButton extends StatelessWidget {
   const UserImageButton({super.key});
 
   @override
   Widget build(BuildContext context) {
+    final colorScheme = Theme.of(context).colorScheme;
     return GestureDetector(
       child: CircleAvatar(
-        backgroundColor: Theme.of(context).primaryColorLight,
+        backgroundColor: colorScheme.inversePrimary,
         child: const Text('A'),
       ),
     );
